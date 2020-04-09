@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://kipishinsky.github.io/repository-name",
+  "homepage": "https://kipishinsky.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -19,6 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
