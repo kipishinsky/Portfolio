@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    .skills {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: #caffb6;
+    }
+
+    .container {
+        border: 1px solid;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_cards {
+        height: 70%;
+        border: 1px solid;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+    .skills {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #caffb6;
+    }
+
+    .container {
+        height: 95%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .container_cards {
+        height: 95%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
