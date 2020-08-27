@@ -1,0 +1,40 @@
+@import "../source/sass/variables";
+
+.footer {
+	min-height: 150px;
+	background-color: $bgColor;
+	display: flex;
+	flex-direction: column;
+
+
+	.iconsContainer {
+		display: flex;
+		justify-content: center;
+		height: 95px;
+
+		.icons {
+			width: 65px;
+			height: 65px;
+			padding: 10px;
+			transition: 0.3s;
+			@media screen and (max-width: 400px) {
+				width: 60px;
+			}
+		}
+
+		:hover {
+			height: 85px;
+			width: 85px;
+		}
+
+	}
+
+	.copyRights {
+		font-size: 13px;
+		font-family: Montserrat;
+		color: #f5f5f5;
+		display: flex;
+		justify-content: center;
+	}
+
+}

@@ -1,15 +1,42 @@
-import React from 'react';
-import classes from './Header.module.css';
-import NavMenu from "../NavMenu/NavMenu";
+import React from 'react'
+import style from './Header.module.scss'
+const {Link} = require('react-scroll').default
 
-function Header() {
-    return (
-        <div className={classes.header}>
-            <div className={classes.container}>
-                <NavMenu/>
-            </div>
-        </div>
-    );
+
+export default function Header() {
+	return (
+
+		<div className={style.header}>
+			<div className={style.menu}>
+				<Link className={style.link}>Main</Link>
+
+				<Link
+					activeClass={style.active}
+					to="ToSkills"
+					spy={true}
+					smooth={true}
+					offset={1}
+					duration={700}
+					className={style.link}>Skills</Link>
+
+				<Link activeClass={style.active}
+				      to="ToProjects"
+				      spy={true}
+				      smooth={true}
+				      offset={1}
+				      duration={700}
+				      className={style.link}>Projects</Link>
+
+				<Link activeClass={style.active}
+				      to="ToContacts"
+				      spy={true}
+				      smooth={true}
+				      offset={1}
+				      duration={700}
+				      className={style.link}>Contacts</Link>
+
+			</div>
+
+		</div>
+	)
 }
-
-export default Header;

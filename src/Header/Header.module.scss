@@ -1,0 +1,32 @@
+@import "../source/sass/variables";
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: $bgSecondColor;
+	display: flex;
+	justify-content: flex-end;
+	position: inherit;
+
+	.menu {
+		width: 360px;
+		padding-top: 13px;
+		display: flex;
+		justify-content: space-around;
+		.link {
+			background-color: $bgSecondColor;
+			text-decoration: none;
+			border: none;
+			color: $textColor;
+			padding: 2px 15px;
+			text-align: center;
+			font-size: 16px;
+			margin: 4px 2px;
+			transition: 0.3s;
+		}
+		.link:hover {
+			background-color: $primaryColor;
+			color: white;
+		}
+	}
+}
