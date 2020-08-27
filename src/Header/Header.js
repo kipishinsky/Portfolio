@@ -2,7 +2,6 @@ import React from 'react'
 import style from './Header.module.scss'
 const {Link} = require('react-scroll').default
 
-
 export default function Header() {
 	return (
 
