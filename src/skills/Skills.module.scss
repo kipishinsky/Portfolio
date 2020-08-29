@@ -1,9 +1,14 @@
+@import "../source/sass/variables";
 
-.holder {
-	display: -ms-flexbox;
+.wrap {
 	display: flex;
-	-ms-flex-pack: center;
 	justify-content: center;
 	width: 100%;
-	padding-top: 50px;
+	height: 100%;
+	padding-top: 20px;
+	font-size: 22px;
+
+	background-color: #6f6f6f;
+	color: $textColor;
+
 }

@@ -1,79 +1,59 @@
 @import "../source/sass/variables";
-@import "../source/sass/mixins";
 
 .main {
-	min-height: 96vh;
-	background-color: $bgColor;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
+	background-color: $bgColor;
 
 	.particles {
 		position: absolute;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		margin-top: 55px;
+		width: 100%;
+		height: 94%;
+		padding-top: 6vh;
 	}
 
 	.presentation {
-		width: 100%;
-		min-height: 500px;
-		@include flex(space-around, center, wrap);
-		box-sizing: border-box;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: green;
 
 		.text {
-			@include text($TextFontFamily, 19px, 30px);
-			position: relative;
-
-			.name {
-				font-size: 45px;
-				position: relative;
-				z-index: 1;
-				&::after {
-					content: '';
-					position: relative;
-					display: flex;
-					z-index: -1;
-				}
-			}
+			margin: 50px;
+			//flex-direction: column;
+			font-family: $TextFontFamily;
+			font-size: 2rem;
+			line-height: 2rem;
+			color: $textColor;
+			background-color: yellow;
 		}
 
 		.photo {
-			position: relative;
-			z-index: 1;
-			&::before {
-				content: '';
-				width: 100%;
-				height: 529px;
-				position: absolute;
-				margin-top: -15px;
-				margin-left: 15px;
-				z-index: -1;
-				@media screen and (max-width: 365px){
-					width: 94%;
-				}
-			}
-			.photoImage {
-				width: 300px;
-				height: 500px;
-				background-size: cover;
-				background-position: center;
-				background-image: url("../source/images/myPhoto.jpg");
-			}
+			margin-top: 50px;
+			width: 40vh;
+			height: 70vh;
+			border-radius: 12px;
+			background-position: center;
+			background-image: url("../source/images/myPhoto.jpg");
 		}
+
+
+
+
 	}
+	.bbbbr {
+		padding-left: 16%;
+		padding-top: 10%;
+		align-items: center;
+		justify-content: center;
+		width: 70%;
+
+	}
+
+
+
+
 }
-
-
 
 
 

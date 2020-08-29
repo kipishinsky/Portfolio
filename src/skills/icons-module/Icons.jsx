@@ -1,24 +1,25 @@
 import React, {useEffect} from 'react'
-import style from './Skills.module.scss'
-import es6 from '../source/images/es6.jpg'
-import github from '../source/images/github.png'
-import webpack from '../source/images/webpack.png'
-import jquery from '../source/images/jquery.png'
-import js from '../source/images/js.png'
-import react from '../source/images/react.svg'
-import redux from '../source/images/redux.png'
-import sass from '../source/images/sass.svg'
-import css from '../source/images/css.png'
-import html from '../source/images/html.png'
-import typescript from '../source/images/typescript.png'
-import nodejs from '../source/images/nodejs.png'
-import parcel from '../source/images/parcel.png'
-import axios from '../source/images/axios.png'
-import lodash from '../source/images/lodash.svg'
-import materialui from '../source/images/materialui.png'
-import storybook from '../source/images/storybook.png'
-import wb from '../source/images/wb.png'
-import firebase from '../source/images/firebase.png'
+import style from './Icons.module.scss'
+import es6 from '../../source/images/es6.jpg'
+import github from '../../source/images/github.png'
+import webpack from '../../source/images/webpack.png'
+import jquery from '../../source/images/jquery.png'
+import js from '../../source/images/js.png'
+import react from '../../source/images/react.svg'
+import redux from '../../source/images/redux.png'
+import sass from '../../source/images/sass.svg'
+import css from '../../source/images/css.png'
+import html from '../../source/images/html.png'
+import typescript from '../../source/images/typescript.png'
+import nodejs from '../../source/images/nodejs.png'
+import parcel from '../../source/images/parcel.png'
+import axios from '../../source/images/axios.png'
+import lodash from '../../source/images/lodash.svg'
+import materialui from '../../source/images/materialui.png'
+import storybook from '../../source/images/storybook.png'
+import wb from '../../source/images/wb.png'
+import firebase from '../../source/images/firebase.png'
+
 
 const $ = window.$
 
@@ -184,10 +185,10 @@ const settings = {
 	entries: entries,
 	width: '100%',
 	height: '100%',
-	radius: '80%',
-	radiusMin: 55,
+	radius: '75%',
+	radiusMin: 5,
 	bgDraw: true,
-	bgColor: '#d7d6d6',
+	bgColor: '#6f6f6f',
 	opacityOver: 3.00,
 	opacityOut: 0.1,
 	opacitySpeed: 2,
@@ -213,12 +214,11 @@ const settings = {
 
 }
 
-export default function Skills() {
+export default function Icons() {
 	useEffect(() => {
-		debugger
 		$('#holder').svg3DTagCloud(settings)
-	}, [])
-	return <div id="holder" className={style.holder}>
 
-	</div>
+	}, [])
+
+	return <div id="holder" className={style.holder}> </div>
 }

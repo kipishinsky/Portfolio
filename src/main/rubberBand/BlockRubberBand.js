@@ -1,26 +1,15 @@
-import React from 'react'
-import style from './Main.module.scss'
-import BlockParticles from './particles/BlockParticles'
-import {Container} from '@material-ui/core'
+import React from 'react';
+import RubberBand from 'react-reveal/RubberBand';
+import style from '../Main.module.scss'
 import Tilt from 'react-tilt'
 import ReactTypingEffect from 'react-typing-effect'
-import RubberBand from 'react-reveal/RubberBand';
-import BlockRebberBand from './rubberBand/BlockRubberBand'
 
 
-export default function Main() {
-
-	return (
-		<div className={style.main} name={'main'}>
-
-			<BlockParticles />
-
-			{/*<div className={style.noga}></div>*/}
-
-			<Container maxWidth='md'>
-
-				<BlockRebberBand/>
-				{/*<RubberBand>
+export default class BlockRebberBand extends React.Component {
+	render() {
+		return (
+			<div className={style.bbbbr}>
+				<RubberBand>
 					<div className={style.presentation}>
 						<div className={style.text}>
 							<p><ReactTypingEffect
@@ -50,10 +39,8 @@ export default function Main() {
 							<div className={style.photo}> </div>
 						</Tilt>
 					</div>
-				</RubberBand>*/}
-			</Container>
-		</div>
-
-	)
+				</RubberBand>
+			</div>
+		);
+	}
 }
-

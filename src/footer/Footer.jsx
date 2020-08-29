@@ -14,15 +14,15 @@ const Footer = () => {
 		<div className={style.footer}>
 			<Fade bottom>
 				<Container maxWidth={'md'}>
-					<header><Title title={'Sergey Kipishinsky'}/></header>
+					<span><Title title={'Sergey Kipishinsky'}/></span>
 					<div className={style.iconsContainer}>
-						<a href='https://github.com/kipishinsky' style={{color: 'black'}}>
+						<a href='https://github.com/kipishinsky' style={{color: 'white'}}>
 							<GitHubIcon className={style.icons}/>
 						</a>
-						<a href='https://t.me/kipishinsky' style={{color: 'black'}}>
+						<a href='https://t.me/kipishinsky' style={{color: 'white'}}>
 							<TelegramIcon className={style.icons}/>
 						</a>
-						<a href='https://linkedin.com/' style={{color: 'black'}}>
+						<a href='https://linkedin.com/' style={{color: 'white'}}>
 							<LinkedInIcon className={style.icons}/>
 						</a>
 					</div>

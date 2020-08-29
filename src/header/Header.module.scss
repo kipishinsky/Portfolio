@@ -1,32 +1,42 @@
 @import "../source/sass/variables";
 
 .header {
-	height: 50px;
-	width: 100%;
-	background-color: $bgSecondColor;
 	display: flex;
+	position: fixed;
+	margin: 0;
+	z-index: 99;
+	width: 100%;
+	height: 6vh;
+	background-color: $bgColor;
+	align-items: center;
 	justify-content: flex-end;
-	position: inherit;
 
 	.menu {
-		width: 360px;
-		padding-top: 13px;
-		display: flex;
-		justify-content: space-around;
+		display: inherit;
+		width: 38%;
+		height: 70%;
+		align-items: center;
+		justify-content: flex-end;
+		margin: 0;
+
 		.link {
-			background-color: $bgSecondColor;
-			text-decoration: none;
-			border: none;
-			color: $textColor;
-			padding: 2px 15px;
-			text-align: center;
-			font-size: 16px;
-			margin: 4px 2px;
+			display: inherit;
+			width: 100%;
+			align-items: stretch;
+			justify-content: center;
+			margin: 0 8px 0 0 ;
+			padding: 5px;
+			font-size: 17px;
 			transition: 0.3s;
+			color: $textColor;
 		}
+
 		.link:hover {
+			align-items: stretch;
+			justify-content: center;
+			border-radius: 3px;
 			background-color: $primaryColor;
-			color: white;
+			color: $textColor;
 		}
 	}
 }
