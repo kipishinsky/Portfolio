@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import style from './Icons.module.scss'
+import style from '../Skills.module.scss'
 import es6 from '../../source/images/es6.jpg'
 import github from '../../source/images/github.png'
 import webpack from '../../source/images/webpack.png'
@@ -30,152 +30,133 @@ const entries = [
 		width: '80',
 		height: '80',
 		url: 'http://es6-features.org/#Constants',
-		target: '_top',
-		tooltip: 'ECMAScript 6'
+		target: '_bottom'
 	},
 	{
 		image: github,
 		width: '120',
 		height: '120',
 		url: 'https://github.com/',
-		target: '_top',
-		tooltip: 'GitHub'
+		target: '_top'
 	},
 	{
 		image: webpack,
 		width: '110',
 		height: '110',
 		url: 'https://webpack.js.org/',
-		target: '_top',
-		tooltip: 'WebPack'
+		target: '_top'
 	},
 	{
 		image: jquery,
 		width: '90',
 		height: '90',
 		url: 'https://jquery.com/',
-		target: '_top',
-		tooltip: 'jQuery'
+		target: '_top'
 	},
 	{
 		image: js,
 		width: '85',
 		height: '85',
 		url: 'https://www.javascript.com/',
-		target: '_top',
-		tooltip: 'Javascript'
+		target: '_top'
 	},
 	{
 		image: react,
 		width: '95',
 		height: '95',
 		url: 'https://reactjs.org/',
-		target: '_top',
-		tooltip: 'React'
+		target: '_top'
 	},
 	{
 		image: redux,
 		width: '115',
 		height: '115',
 		url: 'https://redux.js.org/',
-		target: '_top',
-		tooltip: 'Redux'
+		target: '_top'
 	},
 	{
 		image: sass,
 		width: '75',
 		height: '75',
 		url: 'https://sass-lang.com/',
-		target: '_top',
-		tooltip: 'Sass'
+		target: '_top'
 	},
 	{
 		image: css,
 		width: '83',
 		height: '83',
 		url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-		target: '_top',
-		tooltip: 'Css'
+		target: '_top'
 	},
 	{
 		image: html,
 		width: '83',
 		height: '83',
 		url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML',
-		target: '_top',
-		tooltip: 'Html'
+		target: '_top'
 	},
 	{
 		image: typescript,
 		width: '71',
 		height: '71',
 		url: 'https://www.typescriptlang.org/',
-		target: '_top',
-		tooltip: 'typescript'
+		target: '_top'
 	},
 	{
 		image: nodejs,
 		width: '75',
 		height: '75',
 		url: 'https://nodejs.org/',
-		target: '_top',
-		tooltip: 'node.js'
+		target: '_top'
 	},
 	{
 		image: parcel,
 		width: '95',
 		height: '95',
 		url: 'https://parceljs.org/',
-		target: '_top',
-		tooltip: 'parcel'
+		target: '_top'
 	},
 	{
 		image: axios,
 		width: '105',
 		height: '105',
 		url: 'https://github.com/axios/axios',
-		target: '_top',
-		tooltip: 'axios'
+		target: '_top'
 	},
 	{
 		image: lodash,
 		width: '66',
 		height: '66',
 		url: 'https://lodash.com/',
-		target: '_top',
-		tooltip: 'lodash'
+		target: '_top'
 	},
 	{
 		image: materialui,
 		width: '85',
 		height: '85',
 		url: 'https://material-ui.com/',
-		target: '_top',
-		tooltip: 'material-ui'
+		target: '_top'
 	},
 	{
 		image: storybook,
 		width: '85',
 		height: '85',
 		url: 'https://storybook.js.org/',
-		target: '_top',
-		tooltip: 'storybook'
+		target: '_top'
 	},
 	{
 		image: wb,
 		width: '72',
 		height: '72',
 		url: 'https://www.jetbrains.com/webstorm/',
-		target: '_top',
-		tooltip: 'webstorm'
+		target: '_top'
 	},
 	{
 		image: firebase,
 		width: '80',
 		height: '80',
 		url: 'https://firebase.google.com/',
-		target: '_top',
-		tooltip: 'firebase'
+		target: '_top'
 	}
 
 ]
@@ -188,12 +169,12 @@ const settings = {
 	radius: '75%',
 	radiusMin: 5,
 	bgDraw: true,
-	bgColor: '#6f6f6f',
+	bgColor: '#63666c',
 	opacityOver: 3.00,
 	opacityOut: 0.1,
 	opacitySpeed: 2,
 	fov: 800,
-	speed: 0.26,
+	speed: 0.5,
 	fontFamily: 'Oswald, Arial, sans-serif',
 	fontSize: '25',
 	fontColor: '#fff',
@@ -220,5 +201,5 @@ export default function Icons() {
 
 	}, [])
 
-	return <div id="holder" className={style.holder}> </div>
+	return <div id="holder" className={style.iconsBar}> </div>
 }

@@ -1,14 +1,33 @@
 @import "../source/sass/variables";
 
-.wrap {
+.root {
 	display: flex;
+	align-items: center;
+	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	height: 100%;
-	padding-top: 20px;
-	font-size: 22px;
+	color: $colorText;
+	background-color: #63666c;
 
-	background-color: #6f6f6f;
-	color: $textColor;
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		width: 100%;
+		margin-top: 6vh;
+		background-color: #63666c;
 
+		.text {
+			font-size: 1.7em;
+		}
+	}
+
+	.iconsBar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: auto;
+		background-color: red;
+	}
 }

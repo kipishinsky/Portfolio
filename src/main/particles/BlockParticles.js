@@ -3,6 +3,7 @@ import Particles from 'react-tsparticles'
 import style from '../Main.module.scss'
 
 export default function BlockParticles() {
+
 	return <div>
 		<Particles className={style.particles}
 		           options={{

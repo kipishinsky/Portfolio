@@ -4,7 +4,7 @@
 	font-family: $fontFamily;
 	font-size: $fontSize;
 	line-height: $lineHeight;
-	color: $textColor
+	color: $colorText
 }
 
 @mixin flex ($justifyContent, $alignItems, $flexWrap) {
@@ -13,3 +13,4 @@
 	align-items: $alignItems;
 	flex-wrap: $flexWrap;
 }
+

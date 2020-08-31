@@ -1,0 +1,18 @@
+@import "../source/sass/variables";
+
+.title {
+	text-align: center;
+	color: $colorText;
+	position: relative;
+
+	&::before{
+		content: '';
+		width: 3em;
+		height: 2px;
+		background: $primaryColor;
+		position: absolute;
+		bottom: -0.2em;
+		left: 50%;
+		transform: translate(-50%, 50%);
+	}
+}
