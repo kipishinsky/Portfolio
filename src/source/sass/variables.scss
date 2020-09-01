@@ -4,7 +4,7 @@ $bgColor: #070708;
 $bgSecondColor: #070708;
 $paddingContainer: 100px 0;
 $styleFont: 'Poppins', sans-serif;
-
+$textSize: 1.7em;
 
 // Разрешения
 $bp-small: 48em; // 768px
@@ -20,11 +20,3 @@ $mq-large: "(min-width: #{$bp-large})";
 $mq-xlarge: "(min-width: #{$bp-xlarge})";
 $mq-xxlarge: "(min-width: #{$bp-xxlarge})";
 $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
-
-
-// Размер шрифта
-$base-font-size: 1em;
-
-// Высота строки
-$base-line-height: 1.5;
-$header-line-height: 1.25;

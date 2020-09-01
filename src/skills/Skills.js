@@ -2,7 +2,7 @@ import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 import style from './Skills.module.scss'
 import Icons from './icons-module/Icons'
-import Title from '../Title/Title'
+import Title from '../title/Title'
 
 export default function Skills() {
 	return (

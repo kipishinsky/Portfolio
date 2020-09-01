@@ -1,21 +1,16 @@
 @import "../source/sass/variables";
+@import "../source/sass/mixins";
 
 .root {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
+	@include flex (center, center, column);
 	width: 100%;
 	color: $colorText;
-	background-color: #63666c;
+	background-color: #bdbdbd;
 
 	.container {
-		display: flex;
-		justify-content: center;
-		align-items: flex-end;
+		@include flex (center, center, row);
 		width: 100%;
 		margin-top: 6vh;
-		background-color: #63666c;
 
 		.text {
 			font-size: 1.7em;
@@ -23,11 +18,8 @@
 	}
 
 	.iconsBar {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		@include flex (center, center, row);
 		width: 100%;
 		height: auto;
-		background-color: red;
 	}
 }

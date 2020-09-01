@@ -169,7 +169,7 @@ const settings = {
 	radius: '75%',
 	radiusMin: 5,
 	bgDraw: true,
-	bgColor: '#63666c',
+	bgColor: '#bdbdbd',
 	opacityOver: 3.00,
 	opacityOut: 0.1,
 	opacitySpeed: 2,

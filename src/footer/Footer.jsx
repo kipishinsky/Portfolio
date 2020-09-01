@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Footer.module.scss'
-import Title from '../Title/Title'
+import Title from '../title/Title'
 
 import {Container} from '@material-ui/core'
 import GitHubIcon from '@material-ui/icons/GitHub'

@@ -7,10 +7,10 @@
 	color: $colorText
 }
 
-@mixin flex ($justifyContent, $alignItems, $flexWrap) {
+@mixin flex ($alignItems, $justifyContent,  $flexDirection) {
 	display: flex;
 	justify-content: $justifyContent;
 	align-items: $alignItems;
-	flex-wrap: $flexWrap;
+	flex-direction: $flexDirection;
 }
 
