@@ -13,8 +13,10 @@ const Footer = () => {
 	return (
 		<div className={style.footer}>
 			<Fade bottom>
-				<Container maxWidth={'md'}>
-					<span><Title title={'Sergey Kipishinsky'}/></span>
+				<Container maxWidth={'lg'}>
+					<div className={style.title}>
+						<Title title={'SERGEY KIPISHINSKY'}/>
+					</div>
 					<div className={style.iconsContainer}>
 						<a href='https://github.com/kipishinsky' style={{color: 'white'}}>
 							<GitHubIcon className={style.icons}/>

@@ -4,7 +4,7 @@
 .root {
 	@include flex (center, center, column);
 	width: 100%;
-	color: $colorText;
+	color: $bgColor;
 	background-color: #bdbdbd;
 
 	.container {
