@@ -31,7 +31,7 @@ const Footer = () => {
 
 				</Container>
 				<div className={style.copyRights}>
-					© 2020 Все права защищены
+					© 2020 All rights reserved
 				</div>
 			</Fade>
 		</div>

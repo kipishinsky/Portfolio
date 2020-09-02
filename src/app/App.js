@@ -12,9 +12,9 @@ export default function App() {
 	return (
 		<div className={style.page}>
 			<Header />
-			{/*<Main />
+			<Main />
 			<Skills />
-			<Projects />*/}
+			<Projects />
 			<Contacts />
 			<Footer />
 		</div>
