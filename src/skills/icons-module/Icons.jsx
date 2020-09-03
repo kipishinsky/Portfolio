@@ -20,11 +20,9 @@ import storybook from '../../source/images/storybook.png'
 import wb from '../../source/images/wb.png'
 import firebase from '../../source/images/firebase.png'
 
-
 const $ = window.$
 
 const entries = [
-
 	{
 		image: es6,
 		width: '80',
@@ -158,11 +156,9 @@ const entries = [
 		url: 'https://firebase.google.com/',
 		target: '_top'
 	}
-
 ]
 
 const settings = {
-
 	entries: entries,
 	width: '100%',
 	height: '100%',
@@ -192,14 +188,11 @@ const settings = {
 	tooltipTextAnchor: 'left',
 	tooltipDiffX: 0,
 	tooltipDiffY: 100
-
 }
 
 export default function Icons() {
 	useEffect(() => {
 		$('#holder').svg3DTagCloud(settings)
-
 	}, [])
-
 	return <div id="holder" className={style.iconsBar}> </div>
 }
