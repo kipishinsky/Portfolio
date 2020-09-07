@@ -11,10 +11,10 @@ import Projects from '../projects/Projects'
 export default function App() {
 	return (
 		<div className={style.page}>
-			<Header />
+			{/*<Header />
 			<Main />
 			<Skills />
-			<Projects />
+			<Projects />*/}
 			<Contacts />
 			<Footer />
 		</div>
