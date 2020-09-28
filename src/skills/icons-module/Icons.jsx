@@ -25,134 +25,134 @@ const $ = window.$
 const entries = [
 	{
 		image: es6,
-		width: '80',
-		height: '80',
+		width: '100',
+		height: '100',
 		url: 'http://es6-features.org/#Constants',
 		target: '_bottom'
 	},
 	{
 		image: github,
-		width: '120',
-		height: '120',
+		width: '140',
+		height: '140',
 		url: 'https://github.com/',
 		target: '_top'
 	},
 	{
 		image: webpack,
-		width: '110',
-		height: '110',
+		width: '130',
+		height: '130',
 		url: 'https://webpack.js.org/',
 		target: '_top'
 	},
 	{
 		image: jquery,
-		width: '90',
-		height: '90',
+		width: '110',
+		height: '110',
 		url: 'https://jquery.com/',
 		target: '_top'
 	},
 	{
 		image: js,
-		width: '85',
-		height: '85',
+		width: '105',
+		height: '105',
 		url: 'https://www.javascript.com/',
 		target: '_top'
 	},
 	{
 		image: react,
-		width: '95',
-		height: '95',
+		width: '115',
+		height: '115',
 		url: 'https://reactjs.org/',
 		target: '_top'
 	},
 	{
 		image: redux,
-		width: '115',
-		height: '115',
+		width: '135',
+		height: '135',
 		url: 'https://redux.js.org/',
 		target: '_top'
 	},
 	{
 		image: sass,
-		width: '75',
-		height: '75',
+		width: '95',
+		height: '95',
 		url: 'https://sass-lang.com/',
 		target: '_top'
 	},
 	{
 		image: css,
-		width: '83',
-		height: '83',
+		width: '103',
+		height: '103',
 		url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
 		target: '_top'
 	},
 	{
 		image: html,
-		width: '83',
-		height: '83',
+		width: '103',
+		height: '103',
 		url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML',
 		target: '_top'
 	},
 	{
 		image: typescript,
-		width: '71',
-		height: '71',
+		width: '91',
+		height: '91',
 		url: 'https://www.typescriptlang.org/',
 		target: '_top'
 	},
 	{
 		image: nodejs,
-		width: '75',
-		height: '75',
+		width: '95',
+		height: '95',
 		url: 'https://nodejs.org/',
 		target: '_top'
 	},
 	{
 		image: parcel,
-		width: '95',
-		height: '95',
+		width: '115',
+		height: '115',
 		url: 'https://parceljs.org/',
 		target: '_top'
 	},
 	{
 		image: axios,
-		width: '105',
-		height: '105',
+		width: '125',
+		height: '125',
 		url: 'https://github.com/axios/axios',
 		target: '_top'
 	},
 	{
 		image: lodash,
-		width: '66',
-		height: '66',
+		width: '86',
+		height: '86',
 		url: 'https://lodash.com/',
 		target: '_top'
 	},
 	{
 		image: materialui,
-		width: '85',
-		height: '85',
+		width: '105',
+		height: '105',
 		url: 'https://material-ui.com/',
 		target: '_top'
 	},
 	{
 		image: storybook,
-		width: '85',
-		height: '85',
+		width: '105',
+		height: '105',
 		url: 'https://storybook.js.org/',
 		target: '_top'
 	},
 	{
 		image: wb,
-		width: '72',
-		height: '72',
+		width: '92',
+		height: '92',
 		url: 'https://www.jetbrains.com/webstorm/',
 		target: '_top'
 	},
 	{
 		image: firebase,
-		width: '80',
-		height: '80',
+		width: '120',
+		height: '120',
 		url: 'https://firebase.google.com/',
 		target: '_top'
 	}

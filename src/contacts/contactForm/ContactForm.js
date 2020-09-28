@@ -4,7 +4,6 @@ import {Button, TextField} from '@material-ui/core'
 import Fade from 'react-reveal/Fade'
 import axios from 'axios'
 
-
 export default function ContactForm() {
 
 	const [state, setState] = useState({
@@ -50,7 +49,6 @@ export default function ContactForm() {
 		}
 
 	}
-
 
 	return (
 			<Fade>
